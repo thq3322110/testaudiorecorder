@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (standaard)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telefoon)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Microfoon</item>
+        <item>Onbewerkt</item>
+        <item>Bluetooth</item>
+        <item>Interne audio</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (standaard)</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Geen app voor bestandsbeheer beschikbaar</string>
+    <string name="hold_by_call">pauzeren (onderbreking bij oproep)</string>
+    <string name="recording_status_recording">opname</string>
+    <string name="recording_status_encoding">coderen</string>
+    <string name="recording_status_pause">pauze</string>
+    <string name="recording_status_edit">bewerken</string>
+    <string name="confirm_cancel">Annulering bevestigen</string>
+    <string name="encoding_title">Coderen…</string>
+    <string name="pause_title">Pauzeren…</string>
+    <string name="recording_title">Opname</string>
+    <string name="open_recording_folder">Map met opnames openen</string>
+    <string name="recording_list_is_empty">Opnamelijst is leeg\n\nKlik om een opname te starten</string>
+    <string name="record_button">Opname</string>
+    <string name="cut_button">Knippen</string>
+    <string name="stop_button">Stoppen</string>
+    <string name="cancel_button">Annuleren</string>
+    <string name="pause_button">Pauzeren</string>
+
+    <string name="pref_storage_title">Map met opnames</string>
+    <string name="pref_rate_title">Samplerate</string>
+    <string name="pref_encoding_title">Codering</string>
+    <string name="pref_encoding_summary">Uitvoerformaat (.wav, .m4a, …)</string>
+    <string name="pref_mode_title">Audiokanalen</string>
+    <string name="pref_mode_summary">Opnamekanalen</string>
+    <string name="pref_nameformat_title">Bestandsnaam-opmaak</string>
+    <string name="pref_pausecalls_title">Pauzeren tijdens oproep</string>
+    <string name="pref_pausecalls_summary">Stop de opname bij een oproep en hervat deze bij het ophangen</string>
+    <string name="pref_silence_title">Stille modus</string>
+    <string name="pref_silence_summary">\'Stille modus\' activeren tijdens opname</string>
+    <string name="pref_lockscreen_title">Bediening op vergrendelingsscherm</string>
+    <string name="pref_lockscreen_summary">Bediening weergeven als de telefoon vergrendeld is</string>
+    <string name="pref_theme_title">App-thema</string>
+    <string name="pref_theme_summary">App-thema instellen (donker/licht)</string>
+    <string name="pref_application">Applicatie</string>
+    <string name="pref_recordings">Opnames</string>
+    <string name="pref_fly_title">Direct coderen</string>
+    <string name="pref_fly_summary">Met Direct coderen is bewerking niet mogelijk, evenals herstel van een crash</string>
+    <string name="hold_by_bluetooth">pauze (bluetooth niet verbonden)</string>
+    <string name="menu_search">Zoeken</string>
+    <string name="save_as_wav">Opslaan als WAV</string>
+    <string name="auto_close">Automatisch sluiten in (%1$d)</string>
+    <string name="mic_muted_error">Microfoon gedempt</string>
+    <string name="mic_muted_pie">Android 9 (Pie) en hoger verhinderen dat inactieve achtergrondapps de microfoon gebruiken. Schakel SeLinux uit of downgrade naar een eerdere Android-release!</string>
+    <string name="mic_paused">De microfoon is door Android gepauzeerd. De opnametijd is korter dan de geregistreerde gegevens. Controleer of jouw apparaat opnames in de achtergrond ondersteunt of dat het krachtig genoeg is voor de geselecteerde instellingen</string>
+    <string name="tile_start_recording">Opname starten</string>
+    <string name="tile_stop_recording">Opname beëindigen</string>
+    <string name="encoding_optimization">Achtergrondcodering onderbroken door Android-batterijoptimalisatie. Sta toe dat deze applicatie in de achtergrond kan werken</string>
+    <string name="per_second">/s</string>
+</resources>
